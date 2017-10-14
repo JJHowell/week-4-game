@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    line-height: 2;
+}
+
+body {
+	background: white
+}
+
+.container {
+	width: 1300px;
+}
+
+h1 {
+	
+	color: #485768;
+	height: 20%;
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size:120px;
+	
+}
+
+h3{
+font-family: 'Josefin Slab', serif;
+font-size:20px;	
+}
+
+#gameRules {
+	background:#485768;
+	color: white;
+	width: 100%;
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+
+}
+
+#randomNum {
+	background: white;
+	color: #485768;
+	width: 33%;
+	margin-top: 20;
+	padding: 0, 20px, 20px, 20px;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	float: left;
+	height: 60px;
+
+
+}
+
+#winsLosses {
+	background: white;
+	color: #485768;
+	width: 33%;
+	margin-top: 20;
+	padding: 0, 20px, 20px, 20px;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	float: left;
+	line-height: 20px;
+	height: 60px;
+
+}
+
+#totalScore {
+	background: white;
+	color: #485768;
+	width: 33%;
+	margin-top: 20;
+	padding: 0, 20px, 20px, 20px;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	float: left;
+	height: 60px;
+	
+}
+
+.crystals {
+	background: white;
+	text-align: center;
+	padding-top: 50px;
+	bottom: 0;
+	
+	}
+	
+
+
+img {
+	height: 175px;
+	width: 175px;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-right: 50px;
+	display:inline-block;
+	
+	
+}
+	
+
+
+
+	
+
+
+
+
+
+
+
