@@ -100,13 +100,13 @@ function startgame(){
 endOfGame = false;
 playLoses = false;
 playerScore = 0
-randomnum = Math.round(Math.random() * (120 - 19)) + 19;
+randomnum = Math.floor(Math.random() * (120 - 19)) + 19;
 $('#randomNumber').text(randomnum);
 
-var red = Math.round(Math.random() * (12-1)) + 1;
-var blue = Math.round(Math.random() * (12-1)) + 1;
-var yellow= Math.round(Math.random() * (12-1)) + 1;
-var green= Math.round(Math.random() * (12-1)) + 1;
+var red = Math.floor(Math.random() * (12-1)) + 1;
+var blue = Math.floor(Math.random() * (12-1)) + 1;
+var yellow= Math.floor(Math.random() * (12-1)) + 1;
+var green= Math.floor(Math.random() * (12-1)) + 1;
 
 $('#playerScore').html(playerScore);
 $('#randnum').html(randomnum);
